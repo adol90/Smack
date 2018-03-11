@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+import SocketIO
+
 
 class ViewController: UIViewController {
 
