@@ -11,6 +11,7 @@
 		DD727655205574C700516048 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD727654205574C700516048 /* SWRevealViewController.m */; };
 		DD7276582055AD0200516048 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7276572055AD0200516048 /* ChatVC.swift */; };
 		DD72765A2055AD1100516048 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7276592055AD1100516048 /* ChannelVC.swift */; };
+		DDBE4D9420571BD900C32481 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9320571BD900C32481 /* GradientView.swift */; };
 		DDD60CE620555CE4002260F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD60CE520555CE4002260F9 /* AppDelegate.swift */; };
 		DDD60CE820555CE4002260F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD60CE720555CE4002260F9 /* ViewController.swift */; };
 		DDD60CEB20555CE4002260F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD60CE920555CE4002260F9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		DD727654205574C700516048 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DD7276572055AD0200516048 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		DD7276592055AD1100516048 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		DDBE4D9320571BD900C32481 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DDD60CE220555CE4002260F9 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD60CE520555CE4002260F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD60CE720555CE4002260F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				DDD60CE920555CE4002260F9 /* Main.storyboard */,
 				DDD60CEC20555CE4002260F9 /* Assets.xcassets */,
 				DDD60CEE20555CE4002260F9 /* LaunchScreen.storyboard */,
+				DDBE4D9320571BD900C32481 /* GradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				DD7276582055AD0200516048 /* ChatVC.swift in Sources */,
 				DDD60CE820555CE4002260F9 /* ViewController.swift in Sources */,
+				DDBE4D9420571BD900C32481 /* GradientView.swift in Sources */,
 				DDD60CE620555CE4002260F9 /* AppDelegate.swift in Sources */,
 				DD727655205574C700516048 /* SWRevealViewController.m in Sources */,
 				DD72765A2055AD1100516048 /* ChannelVC.swift in Sources */,
