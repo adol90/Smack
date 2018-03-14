@@ -15,6 +15,12 @@ class LogingVC: UIViewController {
 
     }
 
+    @IBAction func signupPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_REGISTER, sender: nil)
+    }
+    
+   
+    
 
     @IBAction func XbuttonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)

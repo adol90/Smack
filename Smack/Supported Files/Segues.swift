@@ -11,3 +11,7 @@ import Foundation
 
 let TO_LOGIN = "ToLogin"
 
+let TO_REGISTER = "ToRegister"
+
+let UNWIND = "unwindToChannel"
+
