@@ -12,9 +12,11 @@
 		DD7276582055AD0200516048 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7276572055AD0200516048 /* ChatVC.swift */; };
 		DD72765A2055AD1100516048 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7276592055AD1100516048 /* ChannelVC.swift */; };
 		DDBE4D9420571BD900C32481 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9320571BD900C32481 /* GradientView.swift */; };
-		DDBE4D9620585D5B00C32481 /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9520585D5B00C32481 /* Segues.swift */; };
+		DDBE4D9620585D5B00C32481 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9520585D5B00C32481 /* Constants.swift */; };
 		DDBE4D9820586E8700C32481 /* LogingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9720586E8700C32481 /* LogingVC.swift */; };
 		DDBE4D9A205877BC00C32481 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D99205877BC00C32481 /* RegisterVC.swift */; };
+		DDBE4D9D205B16D600C32481 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9C205B16D600C32481 /* AuthServices.swift */; };
+		DDBE4D9F205C78EB00C32481 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE4D9E205C78EB00C32481 /* RoundedButton.swift */; };
 		DDD60CE620555CE4002260F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD60CE520555CE4002260F9 /* AppDelegate.swift */; };
 		DDD60CE820555CE4002260F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD60CE720555CE4002260F9 /* ViewController.swift */; };
 		DDD60CEB20555CE4002260F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD60CE920555CE4002260F9 /* Main.storyboard */; };
@@ -32,9 +34,11 @@
 		DD7276572055AD0200516048 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		DD7276592055AD1100516048 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		DDBE4D9320571BD900C32481 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		DDBE4D9520585D5B00C32481 /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		DDBE4D9520585D5B00C32481 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DDBE4D9720586E8700C32481 /* LogingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogingVC.swift; sourceTree = "<group>"; };
 		DDBE4D99205877BC00C32481 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		DDBE4D9C205B16D600C32481 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		DDBE4D9E205C78EB00C32481 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DDD60CE220555CE4002260F9 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD60CE520555CE4002260F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD60CE720555CE4002260F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +74,7 @@
 			children = (
 				DD727653205574C700516048 /* SWRevealViewController.h */,
 				DD727654205574C700516048 /* SWRevealViewController.m */,
-				DDBE4D9520585D5B00C32481 /* Segues.swift */,
+				DDBE4D9520585D5B00C32481 /* Constants.swift */,
 			);
 			path = "Supported Files";
 			sourceTree = "<group>";
@@ -94,6 +98,7 @@
 				DDD60CEC20555CE4002260F9 /* Assets.xcassets */,
 				DDD60CEE20555CE4002260F9 /* LaunchScreen.storyboard */,
 				DDBE4D9320571BD900C32481 /* GradientView.swift */,
+				DDBE4D9E205C78EB00C32481 /* RoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +109,14 @@
 				DDD60CE520555CE4002260F9 /* AppDelegate.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DDBE4D9B205B16BC00C32481 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE4D9C205B16D600C32481 /* AuthServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		DDD60CD920555CE3002260F9 = {
@@ -127,6 +140,7 @@
 		DDD60CE420555CE4002260F9 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				DDBE4D9B205B16BC00C32481 /* Services */,
 				DD72765D2055AD5E00516048 /* Model */,
 				DD72765B2055AD3E00516048 /* Controllers */,
 				DD72765C2055AD5200516048 /* Views */,
@@ -285,7 +299,9 @@
 				DDD60CE820555CE4002260F9 /* ViewController.swift in Sources */,
 				DDBE4D9820586E8700C32481 /* LogingVC.swift in Sources */,
 				DDBE4D9420571BD900C32481 /* GradientView.swift in Sources */,
-				DDBE4D9620585D5B00C32481 /* Segues.swift in Sources */,
+				DDBE4D9620585D5B00C32481 /* Constants.swift in Sources */,
+				DDBE4D9D205B16D600C32481 /* AuthServices.swift in Sources */,
+				DDBE4D9F205C78EB00C32481 /* RoundedButton.swift in Sources */,
 				DDD60CE620555CE4002260F9 /* AppDelegate.swift in Sources */,
 				DDBE4D9A205877BC00C32481 /* RegisterVC.swift in Sources */,
 				DD727655205574C700516048 /* SWRevealViewController.m in Sources */,
